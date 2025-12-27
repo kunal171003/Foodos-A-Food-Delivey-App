@@ -1,0 +1,29 @@
+# Node
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment files
+.env
+**/.env
+**/.env.*
+!.env.example
+**/.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Test/coverage
+coverage/
+
+# Uploads and generated assets
+**/uploads/
